@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "npx ts-node-esm --preferTsExts --transpile-only src/index.ts",
+    "start": "node dist/server.js",
+    "dev": "npx ts-node-esm --preferTsExts --transpile-only src/server.ts",
     "seed": "npx ts-node-esm --preferTsExts --transpile-only src/scripts/seed.ts"
   },
   "dependencies": {
